@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebWeather.Api", "WebWeather.Api\WebWeather.Api.csproj", "{02C90E7B-1CCD-4702-9E94-314C2BA40579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebWeather.DataService", "WebWeather.DataService\WebWeather.DataService.csproj", "{03AE2465-A452-4AD5-A685-882343BE2B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebWeather.Entities", "WebWeather.Entities\WebWeather.Entities.csproj", "{B7A39974-FEEB-466D-9516-55BB1373AAB8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A3A1B329-D8C7-4BA8-9B19-2C7F69C0BF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C90E7B-1CCD-4702-9E94-314C2BA40579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C90E7B-1CCD-4702-9E94-314C2BA40579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C90E7B-1CCD-4702-9E94-314C2BA40579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C90E7B-1CCD-4702-9E94-314C2BA40579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AE2465-A452-4AD5-A685-882343BE2B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AE2465-A452-4AD5-A685-882343BE2B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AE2465-A452-4AD5-A685-882343BE2B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AE2465-A452-4AD5-A685-882343BE2B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A39974-FEEB-466D-9516-55BB1373AAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A39974-FEEB-466D-9516-55BB1373AAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A39974-FEEB-466D-9516-55BB1373AAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A39974-FEEB-466D-9516-55BB1373AAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A1B329-D8C7-4BA8-9B19-2C7F69C0BF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A1B329-D8C7-4BA8-9B19-2C7F69C0BF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A1B329-D8C7-4BA8-9B19-2C7F69C0BF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A1B329-D8C7-4BA8-9B19-2C7F69C0BF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E45B410-E970-4FDF-AB59-94951C05C813}
+	EndGlobalSection
+EndGlobal
